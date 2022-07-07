@@ -21,7 +21,7 @@ Funcionalidade: Cadastro de usuário
 
     Cenário: fazer registro com email já cadastrado
         Dado que esteja na tela de cadastro
-        Quando preencher campo "<Digite seu email>" 
+        Quando preencher campo "<Digite seu email>" com email ja cadastrado  
         Então mensagem é exibida "<msg>"
         Exemplos:
         |Digite seu nome |Digite seu email      |Digite sua senha |msg                            |

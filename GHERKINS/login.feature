@@ -17,3 +17,12 @@ Funcionalidade: Login de usuário
         |nanate1043@kahase     |@Teste123        |Email deve ser um email válido |
         |nanate1043@kahase.com |                 |Password é obrigatório         |
         |nanate1043@kahase.com |@Teste123        |Cadastro realizado com sucesso |
+
+    Cenário: fazer login na mesma conta apos loagout
+        Dado que esteja na tela de login
+        Quando preencher campo "<Digite seu email>" e NÃO preencher campo "<Digite sua senha>"
+        Então mensagem é exibida "<msg>"
+        Exemplos:
+        |Digite seu email      |Digite sua senha |msg                            |
+        |nanate1043@kahase.com |                 |Password é obrigatório         |
+        |nanate1043@kahase.com |                 |Password é obrigatório         |
