@@ -14,10 +14,10 @@ Funcionalidade: Cadastro de usuário
         Exemplos:
         |Digite seu nome |Digite seu email      |Digite sua senha |msg                            |
         |                |nanate1044@kahase.com |@Teste123        |Nome é obrigatório             |
-        |Leonardo        |                      |@Teste123        |Email é obrigatório            |
-        |Leonardo        |nanate1044@kahase     |@Teste123        |Email deve ser um email válido |
-        |Leonardo        |nanate1044@kahase.com |                 |Password é obrigatório         |
-        |Leonardo        |nanate1044@kahase.com |@Teste123        |Cadastro realizado com sucesso |
+        |Pedro           |                      |@Teste123        |Email é obrigatório            |
+        |Pedro           |nanate1044@kahase     |@Teste123        |Email deve ser um email válido |
+        |Pedro           |nanate1044@kahase.com |                 |Password é obrigatório         |
+        |Pedro           |nanate1044@kahase.com |@Teste123        |Cadastro realizado com sucesso |
 
     Cenário: fazer registro com email já cadastrado
         Dado que esteja na tela de cadastro
