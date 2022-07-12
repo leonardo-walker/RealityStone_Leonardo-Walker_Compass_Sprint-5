@@ -1,4 +1,4 @@
-#language: pt-br
+#language: pt
 
 Funcionalidade: Cadastro de administrador
     Como administrador do e-commerce Front - ServeRest

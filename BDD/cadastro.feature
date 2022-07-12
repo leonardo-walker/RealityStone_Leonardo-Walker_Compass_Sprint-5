@@ -1,4 +1,4 @@
-#language: pt-br
+#language: pt
 
 Funcionalidade: Cadastro de usuário
     Como usuário do e-commerce Front - ServeRest
