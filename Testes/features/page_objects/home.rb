@@ -18,6 +18,7 @@ class Register <SitePrism::Page
     element :email, '#email'
     element :password, '#password'
     element :button, :xpath, '//*[@id="root"]/div/div/form/div[5]/button'
+    
 end
 
 class ADMRegister <SitePrism::Page
@@ -25,6 +26,9 @@ class ADMRegister <SitePrism::Page
     element :nome, '#nome'
     element :email, '#email'
     element :password, '#password'
+    #element :checkbox, 'input[type="checkbox"]'
+   # element :checkbox, :xpath, '//*[@id="administrador"]'
     #element :checkbox, 'checkbox[type="checkbox"]'
     element :checkbox, '#administrador'
+    element :button, :xpath, '//*[@id="root"]/div/div/form/div[5]/button'
 end

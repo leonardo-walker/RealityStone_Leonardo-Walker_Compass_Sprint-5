@@ -21,7 +21,7 @@ Funcionalidade: Cadastro de administrador
     
     Cenário: fazer registro com email já cadastrado
         Dado que esteja na tela de cadastro
-        Quando o administrador preencher campo "<Digite seu email>" com email ja cadastrado  
+        Quando o administrador preencher campo "<Digite seu nome>", "<Digite seu email>" e "<Digite sua senha>" com email ja cadastrado  
         Então mensagem é exibida "<msg>"
         Exemplos:
         |Digite seu nome |Digite seu email      |Digite sua senha |msg                            |
