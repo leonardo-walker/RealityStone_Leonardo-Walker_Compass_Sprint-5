@@ -7,7 +7,7 @@ Dado('que esteja na tela de login') do
   Quando('o usuário preencher os campos {string} e {string}') do |string, string2|
     @Login.email.set string
     @Login.password.set string2
-    @Login.button.click
+    @Login.button_login.click
     
   end
   
