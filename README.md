@@ -15,7 +15,7 @@
 # Pré requisitos:
 | Ferramenta | Versão  |
 |-------|--------|
-| [Ruby](https://www.ruby-lang.org/pt/) | v.5.5.0  |
+| [Ruby](https://www.ruby-lang.org/pt/) | v.3.1.2  |
 | [Git](https://git-scm.com/)   | v.2.36.1 |
 | [Cucumber](https://rubygems.org/gems/cucumber) | v.8.0.0  |
 | [Capybara](https://rubygems.org/gems/capybara/versions/2.7.1?locale=pt-BR) | v.3.37.1  |
@@ -78,3 +78,7 @@ Copyright © 2022 [Compass.uol](https://compass.uol/).
 # Créditos
 - [Documentação GIT](https://git-scm.com/doc)
 - [Documentação Ruby](https://www.ruby-lang.org/pt/documentation/)
+- [Documentação Cucumber](https://github.com/cucumber/cucumber-ruby)
+- [Documentação Capybara](https://github.com/teamcapybara/capybara)
+- [Documentação SitePrism](https://github.com/site-prism/site_prism)
+
